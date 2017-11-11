@@ -1,10 +1,9 @@
-library("survival")
-library("data.table")
+library(survival)
+library(data.table)
 library(foreach)
 library(doSNOW)
 library(aod)
 library(RJSONIO)
-library(aod)
 
 setwd("E:/RaulEpicProject")
 clsb <- readLines("cl_sbcl.txt")
